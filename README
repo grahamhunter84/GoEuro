@@ -11,6 +11,10 @@ The results are then written to a CSV file.
 
 The web service is called using Jersey, the JSON results are mapped using Jackson to POJOs. The CSV file is written to disk by a utility class.
 
+To run the JAR:
+
+java -jar GoEuro.jar Berlin
+
 
 To build the Application run the following ant command from the workspace:
 
